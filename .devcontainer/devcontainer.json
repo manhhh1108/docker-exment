@@ -1,0 +1,11 @@
+{
+    "name": "docker exment",
+    "dockerComposeFile": ["../docker-compose.yml","../docker-compose.mysql.yml"],
+    "service": "php", 
+    "workspaceFolder": "/var/www/exment",
+    "shutdownAction": "stopCompose",
+    "forwardPorts": [80, 3306],
+    "postStartCommand": [
+
+    ]
+}
